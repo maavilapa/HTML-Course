@@ -25,11 +25,11 @@ section>h2 {
     width: 230px;
     text-align: center;
     font-style: Times;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: italic;
     height: 30px;
     margin: 0;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 section.uno>h2 {
@@ -42,7 +42,7 @@ section.dos>h2 {
 
 section.tres>h2 {
     color: #e28f8f;
-    background-color: #49108a;
+    background-color: #5663d4;
 }
 
 section>p {
