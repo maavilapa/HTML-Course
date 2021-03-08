@@ -45,7 +45,7 @@ section.tres>h2 {
 }
 
 section>p {
-    padding: 45px 20px 20px 20px;
+    padding: 40px 15px 15px 15px;
 }
 
 .row {
@@ -66,10 +66,17 @@ section>p {
 /* Tablet*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+
     .col-md-6 {
         width: 50%;
-        float: left;
+        
 
+    }
+    .col-md-12 {
+        width: 100%;
     } 
 }
 
