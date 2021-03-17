@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background-color: rgb(231, 235, 236);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+section {
+    border: 1px solid black;
+    background-color: rgb(151, 175, 175);
+    margin: 10px;
+}
+
+section>h2 {
+    float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 230px;
+    text-align: center;
+    font-style: Times;
+    font-size: 20px;
+    font-weight: italic;
+    height: 40px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+section.uno>h2 {
+    background-color: #1395db;
+}
+
+section.dos>h2 {
+    background-color: #d7e934;
+}
+
+section.tres>h2 {
+    background-color: #ee0c0c;
+}
+
+section>p {
+    padding: 40px 15px 15px 15px;
+}
+
+.row {
+    width: 100%;
+}
+
+/* Desktop*/
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+
+    }
+}
+
+
+/* Tablet*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        
+
+    }
+    .col-md-12 {
+        width: 100%;
+    } 
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+
+    }
+}
